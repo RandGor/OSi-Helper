@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "OSi Helper",
+    "description": "Не пропусти проверку своего задания по ОСям!",
+    "version": "1.0",
+    "browser_action": {      
+        "default_popup": "popup.html"
+    },
+
+	"permissions": [
+		"storage",
+		"activeTab",
+		"cookies",
+		"*://*.nstu.ru/*"
+	],
+	"icons": { "16": "moodle_doom.png",
+               "48": "moodle_doom.png",
+               "128": "moodle_doom.png",
+               "256": "moodle_doom.png" }
+}
